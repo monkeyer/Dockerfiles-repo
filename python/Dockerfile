@@ -4,7 +4,7 @@ WORKDIR /app
 
 ADD . /app
 
-RUN pip install -i http://mirrors.aliyun.com/pypi/simple/ -r requirements.txt
+RUN pip install -r requirements.txt
 
 EXPOSE 80
 
